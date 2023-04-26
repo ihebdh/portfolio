@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/192f1c2b82.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="content">
+                <div class="logo"><span></span></div>
+                <div class="info">
+                    <div class="inner">
+                        <h1>DAYEH IHEB</h1>
+                        <p> ENGINER AND WEB DEVOLOPER THAT HAVE PASSION FOR CREATING DIGITAL SOLUTIONS</p>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><button class="popup_btn" id="about">About</button></li>
+                        <li><button class="popup_btn" id="projects">Projects</button></li>
+                        <li><button class="popup_btn" id="contact">Contact</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="hidden-parent">
+                <button id="close"> </button>
+                <div class="head"><h1 id="header">header</h1> </div> 
+                <div id="" class="hidden about" style="display: none;">
+                        <img src="pic03-developer.jpg" alt="">
+                        <p>Hello! I am the developer behind this website and many others. I love building apps (mobile and web). I believe knowledge is power, and 
+                           for that reason I am constantly learning as much as I can. I'm passionate about exploring the latest web development technologies and using them to create innovative solutions, 
+                           Being a developer to me means more than simply writing code. A developer should have the ability to solve complex problems, communicate with a team, and maintain accuracy and attention to details.
+                        </p>
+                        <div class="download"> <span>Download CV :</span>   <a href="/cv dayeh iheb FR.pdf" download class="cv">Frensh</a> / <a href="/cv dayeh iheb en.pdf" download class="cv">English</a>
+                        </div>
+                        <b>Skills :</b>
+                        <ul class="skills">
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>Java</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                            <li>SQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Git</li>
+
+                        </ul>
+                        <b>Certeficates :</b>
+                        <ul class="certeficates">
+                            <li>JavaScript Algorithm and data structure <a href="https://www.freecodecamp.org/certification/fccfe60f898-8e2e-4968-8ab5-eff9a1f3ec10/javascript-algorithms-and-data-structures" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li>  </li>
+                            <li>cs50 : computer science introduction <a href="https://certificates.cs50.io/564ee816-fb09-4b3e-a47b-a5abb8329bca.pdf?size=letter" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li>
+                            <li>machine learning <a href="coursera.org/verif y/S8WHVSHK72XZ" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li> </li>
+                            <li> Python programming <a href="coursera.org/verif y/S8WHVSHK72XZ" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li></li>
+                            <li>matlab programming <a href="t coursera.org/verif y/FXPFVWJUDP54" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> </li></li>
+
+                        </ul>
+                        </div>
+
+                <div id="" class="hidden projects" style="display: none;">
+                    <div class="project">
+
+                        <img src="transtune.png" alt="transtune website">
+                        <p> <b>Project 1 : Transtune</b> a website that shows the exact path, departure and arrival of tunisian public tranposrt system such as collective taxi.
+                             Users can easily select the desired city and view the available transport and routes.
+                             <span>technologies used : html, css, javascript, json, google maps API</span>
+                        <a href="https://transtune.netlify.app/index.html" target="_blank">Link</a>
+                        </p>
+                        <hr>
+                        <br>
+
+                        <img src="auction.png" alt="">
+                        <p><b>Project 2: Auction Site</b> a website that enable users to bid on a item that have been posted for auction, user can add a listing, bid, comment, and monitor their favorite listings.
+                             the highest bidder at the end of the auction period wins the item.
+                        <span>Technologies used : Django, sql, html, css</span>
+                        <a href="https://github.com/me50/ihebdh/tree/web50/projects/2020/x/commerce" target="_blank">Link</a>
+                        </p>
+                        <hr>
+                        <br>
+                        <img src="mail.png" alt="">
+                        <p>  <b>Project 3 : Email</b> a webapp like google mails, enable users to send and recieve emails between each others, user 
+                            can also delete or archive an email. <span>technologies used : javascript, django, sql, json</span>
+                        <a href="https://github.com/me50/ihebdh/tree/web50/projects/2020/x/mail/mail" target="_blank">Link</a>
+                        </p>
+                        <hr>
+                        <br>
+                       
+                        <img src="network.png" alt="">
+                        <p> <b>Project 4 : Network</b> a Twitter-like social network website for making posts and following users. that allows
+                             other users to see,like and comment on posts.<span>technologies used : javascript, json, ajax sql, django</span>    
+                        <a href="https://github.com/me50/ihebdh/ " target="_blank">Link</a>
+                        </p>
+                        <hr>
+                        <br>
+                    
+                    </div>
+                </div>
+                <div id="" class="hidden contact" style="display: none;">
+                    <form id="form" method="POST" action="https://formspree.io/f/mrgvrpjn">
+                        <div class="field half first"><label for="name">Name</label>
+                            <input type="text" name="name" id="name"></div>
+                        <div class="field half"><label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        
+                        <div class="field"><label for="message">Message</label>
+                            <textarea name="message" id="text" rows="4"></textarea></div>
+                        <ul class="actions">
+                            <li>
+                                <input type="submit" value="Send Message" class="special">
+                            </li>
+                            <li>
+                                <input type="reset" value="Reset">
+                            </li>
+                            <span id ="message"></span>
+                            <i id="sent" class="fa-solid fa-circle-check" ></i>
+
+                        </ul>
+                        <ul class="icons">
+                            <li>
+                                <a href="https://www.linkedin.com/in/iheb-dayeh-4b19091a8/" target="_blank" class="icon "><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/ihebdh" target="_blank" class="icon "><i class="fa-brands fa-github"></i></a>
+                        </li>
+                    </ul>
+                    
+                    </form>
+                </div>
+            </div>
+    
+        </div>
+    
+        <footer>Copyright © Portfolio Website</footer>
+
+    </main>
+</body>
+<script src="main.js"></script>
+<script src="design.js" ></script>.
+
+</html>
